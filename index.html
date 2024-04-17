@@ -15,13 +15,10 @@
   function sendLink() {
     Kakao.Link.sendDefault({
       objectType: 'text',
-      content: {
-        title: '김초원테수투',
-        description: '테수투임당',
-        link: {
-          mobileWebUrl: 'http://pinpoint-edu.com',
-          webUrl: 'http://pinpoint-edu.com',
-        },
+      text : '김초원 테수투임당',
+      link : {
+        mobileWebUrl: 'http://pinpoint-edu.com',
+        webUrl: 'http://pinpoint-edu.com',
       },
       buttons: [
         {
